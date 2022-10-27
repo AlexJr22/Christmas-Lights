@@ -1,3 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(40, 20, 40);
+}
+
+.light {
+  background-color: white;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
 }
