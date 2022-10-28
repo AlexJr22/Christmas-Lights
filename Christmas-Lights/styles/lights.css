@@ -40,26 +40,93 @@
 /* lamp colors */
 
 .red {
-  background-color: red;
-
-  box-shadow: 0px 0px 40px red;
+  background-color: rgb(255, 0, 0);
+  animation: flasherRed infinite 1s;
 }
 
 .blue {
   background-color: blue;
-  box-shadow: 0px 0px 40px blue;
+
+  animation: flasherBlue infinite 1s;
 }
 
 .yellow {
   background-color: yellow;
-  box-shadow: 0px 0px 40px yellow;
+
+  animation: flasherYellow infinite 1s;
 }
 
 .green {
   background-color: green;
+  
+  animation: flasherYellow infinite 1s;
 }
 
 .white {
   background-color: white;
-  box-shadow: 0px 0px 40px white;
+
+  animation: flasherWhite infinite 1s;
+}
+
+@keyframes flasherYellow {
+  0% {
+    filter: drop-shadow(0px 0px 0px rgb(255, 255, 100));
+    /* box-shadow: 0px 0px 0px yellow; */
+  }
+  50% {
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 100));
+    /* box-shadow: 0px 0px 20px yellow; */
+  }
+  100% {
+    filter: drop-shadow(0px 0px 0px rgb(255, 255, 100));
+    /* box-shadow: 0px 0px 0px yellow; */
+  }
+}
+
+@keyframes flasherBlue {
+  0% {
+    filter: drop-shadow(0px 0px 0px rgb(100, 100, 255));
+  }
+  50% {
+    filter: drop-shadow(0px 0px 10px rgb(100, 100, 255));
+  }
+  100% {
+    filter: drop-shadow(0px 0px 0px rgb(100, 100, 255));
+  }
+}
+
+@keyframes flasherGreen {
+  0% {
+    filter: drop-shadow(0px 0px 0px green);
+  }
+  50% {
+    filter: drop-shadow(0px 0px 10px green);
+  }
+  100% {
+    filter: drop-shadow(0px 0px 0px green);
+  }
+}
+
+@keyframes flasherRed {
+  0% {
+    filter: drop-shadow(0px 0px 0px rgb(255, 55, 55));
+  }
+  50% {
+    filter: drop-shadow(0px 0px 10px rgb(252, 55, 55));
+  }
+  100% {
+    filter: drop-shadow(0px 0px 0px rgb(252, 55, 55));
+  }
+}
+
+@keyframes flasherWhite {
+  0% {
+    filter: drop-shadow(0px 0px 0px white);
+  }
+  50% {
+    filter: drop-shadow(0px 0px 10px white);
+  }
+  100% {
+    filter: drop-shadow(0px 0px 0px white);
+  }
 }
