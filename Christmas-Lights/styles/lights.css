@@ -21,22 +21,6 @@
   border-radius: 50%;
 }
 
-.circle1 {
-  transform: translateY(25px);
-}
-.circle2 {
-  transform: translateY(33px);
-}
-.circle3 {
-  transform: translateY(35px);
-}
-.circle4 {
-  transform: translateY(33px);
-}
-.circle5 {
-  transform: translateY(25px);
-}
-
 /* lamp colors */
 
 .red {
