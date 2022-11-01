@@ -8,7 +8,19 @@ body {
   background-color: rgb(29, 8, 20);
 }
 
+#buttons {
+  position: absolute;
+  display: flex;
+
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+
 button {
   width: 80px;
   height: 40px;
+
+  background: rgb(195, 195, 224);
+  font-size: medium;
 }
