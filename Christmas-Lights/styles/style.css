@@ -24,3 +24,7 @@ button {
   background: rgb(195, 195, 224);
   font-size: medium;
 }
+
+button:active {
+  background: rgb(180, 180, 224);
+}
