@@ -8,7 +8,7 @@ body {
   background-color: rgb(29, 8, 20);
 }
 
-#buttons {
+#checkON_OFF {
   position: absolute;
   display: flex;
 
@@ -17,7 +17,7 @@ body {
   transform: translate(50%, 50%);
 }
 
-button {
+#On_Off {
   width: 80px;
   height: 40px;
 
@@ -25,6 +25,6 @@ button {
   font-size: medium;
 }
 
-button:active {
+#On_Off:active {
   background: rgb(180, 180, 224);
 }
