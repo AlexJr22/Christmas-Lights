@@ -24,119 +24,44 @@
 /* lamp colors */
 
 .red {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(131, 0, 0);
 }
 
 .blue {
-  background-color: blue;
+  background-color: rgb(0, 0, 146);
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgb(97, 97, 0);
 }
 
 .green {
-  background-color: green;
+  background-color: rgb(0, 58, 0);
 }
 
 .white {
-  background-color: white;
+  background-color: rgb(122, 122, 122);
 }
 
 /* lamps animations */
-/* 1 */
-#lamp1-1 {
+
+.redAnimation {
+  background-color: red;
   animation: flasherRed infinite 2s;
 }
-#lamp1-2 {
+.blueAnimation {
+  background-color: blue;
   animation: flasherBlue infinite 2s;
-  animation-delay: 1s;
 }
-#lamp1-3 {
+.yellowAnimation {
+  background-color: yellow;
   animation: flasherYellow infinite 2s;
 }
-#lamp1-4 {
-  animation: flasherGreen infinite 2s;
-  animation-delay: 1s;
-}
-#lamp1-5 {
-  animation: flasherWhite infinite 2s;
-}
-
-/* 2 */
-#lamp2-1 {
-  animation: flasherYellow infinite 2s;
-  animation-delay: 1s;
-}
-#lamp2-2 {
+.greenAnimation {
+  background-color: red;
   animation: flasherGreen infinite 2s;
 }
-#lamp2-3 {
-  animation: flasherRed infinite 2s;
-  animation-delay: 1s;
-}
-#lamp2-4 {
+.whiteAnimation {
+  background-color: red;
   animation: flasherWhite infinite 2s;
-}
-#lamp2-5 {
-  animation: flasherBlue infinite 2s;
-  animation-delay: 1s;
-}
-
-/* 3 */
-#lamp3-1 {
-  animation: flasherGreen infinite 2s;
-}
-#lamp3-2 {
-  animation: flasherYellow infinite 2s;
-  animation-delay: 1s;
-}
-#lamp3-3 {
-  animation: flasherWhite infinite 2s;
-}
-#lamp3-4 {
-  animation: flasherBlue infinite 2s;
-  animation-delay: 1s;
-}
-#lamp3-5 {
-  animation: flasherRed infinite 2s;
-}
-
-/* 4 */
-#lamp4-1 {
-  animation: flasherWhite infinite 2s;
-  animation-delay: 1s;
-}
-#lamp4-2 {
-  animation: flasherRed infinite 2s;
-}
-#lamp4-3 {
-  animation: flasherGreen infinite 2s;
-  animation-delay: 1s;
-}
-#lamp4-4 {
-  animation: flasherBlue infinite 2s;
-}
-#lamp4-5 {
-animation: flasherYellow infinite 2s;
-  animation-delay: 1s;
-}
-
-/* 5 */
-#lamp5-1 {
-  animation: flasherBlue infinite 2s;
-}
-#lamp5-2 {
-  animation: flasherYellow infinite 2s;
-  animation-delay: 1s;
-}
-#lamp5-3 {
-  animation: flasherWhite infinite 2s;
-}
-#lamp5-4 {
-  animation: flasherRed infinite 2s;
-  animation-delay: 1s;
-}
-#lamp5-5 {
-  animation: flasherGreen infinite 2s;
 }
