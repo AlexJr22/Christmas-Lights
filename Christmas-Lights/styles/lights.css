@@ -42,6 +42,9 @@
 .white, .white2, .white3 {
   background-color: rgb(122, 122, 122);
 }
+.black {
+  background-color: rgb(29, 8, 20);
+}
 
 /* lamps animations */
 

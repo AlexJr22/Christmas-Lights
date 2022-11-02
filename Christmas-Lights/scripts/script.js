@@ -19,6 +19,7 @@ input.onclick = () => {
   document.querySelector('.yellow3').classList.toggle('yellowAnimation');
   document.querySelector('.green3').classList.toggle('greenAnimation');
   document.querySelector('.white3').classList.toggle('whiteAnimation');
+  document.body.classList.toggle('black');
 
 };
 

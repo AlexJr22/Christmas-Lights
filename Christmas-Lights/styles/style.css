@@ -5,5 +5,6 @@
 }
 
 body {
-  background-color: rgb(29, 8, 20);
+  background-color: #000000;
+  transition: .5s;
 }
