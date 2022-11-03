@@ -1,15 +1,73 @@
+
+.lampsocket1 {
+  position: absolute;
+  background-color: rgb(56, 43, 43);
+
+  width: 23px;
+  height: 23px;
+  border-radius: 7px;
+  
+  transform: translate(9px, 13px);
+}
+.lampsocket2 {
+  position: absolute;
+  background-color: rgb(56, 43, 43);
+  
+  width: 23px;
+  height: 23px;
+  border-radius: 7px;
+
+  transform: translate(66px, 20px);
+}
+.lampsocket3 {
+  position: absolute;
+  background-color: rgb(56, 43, 43);
+  
+  width: 23px;
+  height: 23px;
+  border-radius: 7px;
+
+  transform: translate(122px, 21px);
+}
+.lampsocket4 {
+  position: absolute;
+  background-color: rgb(56, 43, 43);
+  
+  width: 23px;
+  height: 23px;
+  border-radius: 7px;
+
+  transform: translate(178px, 20px);
+}
+.lampsocket5 {
+  position: absolute;
+  background-color: rgb(56, 43, 43);
+  
+  width: 23px;
+  height: 23px;
+  border-radius: 7px;
+
+  transform: translate(236px, 13px);
+}
+
+
 .circle1 {
   transform: translateY(25px);
+  z-index: 1;
 }
 .circle2 {
   transform: translateY(33px);
+  z-index: 1;
 }
 .circle3 {
   transform: translateY(35px);
+  z-index: 1;
 }
 .circle4 {
   transform: translateY(33px);
+  z-index: 1;
 }
 .circle5 {
   transform: translateY(25px);
+  z-index: 1;
 }
