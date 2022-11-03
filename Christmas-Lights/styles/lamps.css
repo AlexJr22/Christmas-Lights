@@ -3,51 +3,56 @@
   position: absolute;
   background-color: rgb(56, 43, 43);
 
-  width: 23px;
-  height: 23px;
-  border-radius: 7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
   
-  transform: translate(9px, 13px);
+  transform: scale(.6)
+  translateY(30%);
 }
 .lampsocket2 {
   position: absolute;
   background-color: rgb(56, 43, 43);
   
-  width: 23px;
-  height: 23px;
-  border-radius: 7px;
-
-  transform: translate(66px, 20px);
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  
+  transform: scale(.6)
+  translate(98px, 60%);
 }
 .lampsocket3 {
   position: absolute;
   background-color: rgb(56, 43, 43);
   
-  width: 23px;
-  height: 23px;
-  border-radius: 7px;
-
-  transform: translate(122px, 21px);
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  
+  transform: scale(.6)
+  translate(195px, 70%);
 }
 .lampsocket4 {
   position: absolute;
   background-color: rgb(56, 43, 43);
   
-  width: 23px;
-  height: 23px;
-  border-radius: 7px;
-
-  transform: translate(178px, 20px);
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  
+  transform: scale(.6)
+  translate(292px, 60%);
 }
 .lampsocket5 {
   position: absolute;
   background-color: rgb(56, 43, 43);
   
-  width: 23px;
-  height: 23px;
-  border-radius: 7px;
-
-  transform: translate(236px, 13px);
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  
+  transform: scale(.6)
+  translate(390px, 30%);
 }
 
 
