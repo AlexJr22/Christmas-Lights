@@ -54,3 +54,7 @@
 /* lamps animations */
 
 .delay {animation-delay: 1s;}
+
+.animationOFF {
+  animation: none;
+}
