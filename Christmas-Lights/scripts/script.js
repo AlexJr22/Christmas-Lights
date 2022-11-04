@@ -1,39 +1,16 @@
 const input = document.getElementById('On_Off');
-
-const red = document.querySelectorAll('.red');
-const blue = document.querySelectorAll('.blue');
-const yellow = document.querySelectorAll('.yellow');
-const green = document.querySelectorAll('.green');
-const white = document.querySelectorAll('.white');
-
+const light = document.querySelectorAll('.light');
 
 input.onclick = () => {
   
-  
-  red.forEach(lamps => {
-    addAnimation(lamps, 'redAnimation');
-  });
-
-  blue.forEach(lamps => {
-    addAnimation(lamps, 'blueAnimation');
-  });
-
-  yellow.forEach(lamps => {
-    addAnimation(lamps, 'yellowAnimation');
-  });
-
-  green.forEach(lamps => {
-    addAnimation(lamps, 'greenAnimation');
-  });
-
-  white.forEach(lamps => {
-    addAnimation(lamps, 'whiteAnimation');
-  });
+  light.forEach(lamp => {
+    addAnimation(lamp)
+  })
   
   document.body.classList.toggle('black');
 
 };
 
-  function addAnimation(lamps, color = '') {
-    lamps.classList.toggle(color)
+  function addAnimation(lamps) {
+    lamps.classList.toggle('animationOFF')
   };
