@@ -1,6 +1,12 @@
-
-.lampsocket1 {
+.lamp {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  align-items: flex-end;
+}
+.lampsocket {
   position: absolute;
+  display: flex;
   background-color: rgb(56, 43, 43);
 
   width: 40px;
@@ -8,71 +14,5 @@
   border-radius: 5px;
   
   transform: scale(.6)
-  translateY(30%);
-}
-.lampsocket2 {
-  position: absolute;
-  background-color: rgb(56, 43, 43);
-  
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-  
-  transform: scale(.6)
-  translate(98px, 60%);
-}
-.lampsocket3 {
-  position: absolute;
-  background-color: rgb(56, 43, 43);
-  
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-  
-  transform: scale(.6)
-  translate(195px, 70%);
-}
-.lampsocket4 {
-  position: absolute;
-  background-color: rgb(56, 43, 43);
-  
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-  
-  transform: scale(.6)
-  translate(292px, 60%);
-}
-.lampsocket5 {
-  position: absolute;
-  background-color: rgb(56, 43, 43);
-  
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-  
-  transform: scale(.6)
-  translate(390px, 30%);
-}
-
-
-.circle1 {
-  transform: translateY(25px);
-  z-index: 1;
-}
-.circle2 {
-  transform: translateY(33px);
-  z-index: 1;
-}
-.circle3 {
-  transform: translateY(35px);
-  z-index: 1;
-}
-.circle4 {
-  transform: translateY(33px);
-  z-index: 1;
-}
-.circle5 {
-  transform: translateY(25px);
-  z-index: 1;
+  translateY(-35px);
 }
