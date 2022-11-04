@@ -16,3 +16,7 @@
   transform: scale(.6)
   translateY(-35px);
 }
+
+.container1 { transform: translateY(7px); }
+.container2 { transform: translateY(18px); }
+.container3 { transform: translateY(26px); }
