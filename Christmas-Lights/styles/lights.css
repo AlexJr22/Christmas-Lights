@@ -25,22 +25,27 @@
 
 .red{
   background-color: rgb(131, 0, 0);
+  animation: flasherRed infinite 2s;
 }
 
 .blue {
   background-color: rgb(0, 0, 146);
+  animation: flasherBlue infinite 2s;
 }
 
 .yellow {
   background-color: rgb(97, 97, 0);
+  animation: flasherYellow infinite 2s;
 }
 
 .green {
   background-color: rgb(0, 58, 0);
+  animation: flasherGreen infinite 2s;
 }
 
 .white {
   background-color: rgb(122, 122, 122);
+  animation: flasherWhite infinite 2s;
 }
 .black {
   background-color: rgb(29, 8, 20);
