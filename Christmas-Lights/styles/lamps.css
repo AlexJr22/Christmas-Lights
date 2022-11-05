@@ -24,12 +24,12 @@
   position: absolute;
 
   width: 8px;
-  height: 40px;
+  height: 70px;
   
   background-color: rgb(56, 43, 43);
   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.8);
 
-  transform: translate(16px, -40px);
+  transform: translate(16px, -70px);
 }
 
 .container1 { transform: translateY(12px); }
