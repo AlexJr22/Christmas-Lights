@@ -15,6 +15,8 @@
   
   transform: scale(.6)
   translateY(-35px);
+
+  box-shadow: inset 7px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 .container1 { transform: translateY(12px); }
