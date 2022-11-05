@@ -19,6 +19,19 @@
   box-shadow: inset 7px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
+.lampsocket:after {
+  content: '';
+  position: absolute;
+
+  width: 8px;
+  height: 40px;
+  
+  background-color: rgb(56, 43, 43);
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.8);
+
+  transform: translate(16px, -40px);
+}
+
 .container1 { transform: translateY(12px); }
 .container2 { transform: translateY(18px); }
 .container3 { transform: translateY(21px); }
